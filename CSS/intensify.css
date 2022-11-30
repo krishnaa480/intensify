@@ -1,0 +1,418 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+    
+
+}
+
+.header{ 
+    margin:0 auto;
+    text-decoration: none;    
+
+}
+
+.header .center a{ 
+    color: orange;
+    text-decoration: none;
+}
+
+.header .left{ 
+    float: left;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.header .center{ 
+    float: left;
+    font-size: 40px;
+    text-align: center;
+    width: 200px;
+    margin-left:25%;
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+    color: red;
+}
+
+
+.header .right{    
+    float: right;
+    width: 200px;
+    text-align: right;
+}
+
+.header .right button{ 
+    font-size: 12px;
+    background: none;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background: none;
+    border: 1px solid gray;
+}
+
+.left a{
+    color: rgb(168, 163, 163);
+    font-size: 20px;
+}
+
+/* header close */
+
+
+
+/* master start */
+
+.master{    
+    width: 100%;
+    clear: both;
+    margin-top: 10px; 
+}
+
+.clearfix::after{ 
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content{ 
+    background-image: url('../intensify/banner.jpg');
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center top;    
+}
+
+.text{ 
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+
+.text h1{ 
+    color: rgb(30, 168, 223);
+}
+
+.text p{
+    color: rgb(88, 83, 83);
+    line-height: 12px;
+}
+
+.text button{ 
+    padding-top: 10px;
+    padding-bottom: 25px;
+    width: 180px;
+    height: 30px;
+    background-color: rgb(241, 126, 60);
+    border-radius: 2px;
+    border: 2px solid rgb(241, 126, 60);
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/* between start */
+
+
+.between{
+
+    margin-top:70px;
+    width: 100%;
+    margin-left: 50px;
+    
+    
+}
+
+.between .left {
+    width: 300px;
+    height: 400px;
+    text-align: right;
+    line-height: 30px;
+    position: relative;
+    top: 100px;
+    left: 130px;
+    float: left;
+}
+
+
+.between .left h3{ 
+    color:rgb(30, 168, 223) ;
+}
+
+
+
+.between .left p{ 
+    line-height: 22px;
+    color: gray;
+}
+
+
+
+.between .right{
+    width: 300px;
+    height: 400px;
+    text-align: right;
+    line-height: 30px;
+    position: relative;
+    top: 100px;
+    left: 90px;
+
+}
+
+
+
+.between .right h3{ 
+    color:rgb(30, 168, 223) ;
+}
+
+
+.between .right p{ 
+    line-height: 22px;
+    color: gray;
+}
+
+
+.justify{ 
+    
+    width: 330px;
+    float:left;
+    margin-top:100px ;
+    margin-left: 170px;
+    text-align: center;
+    
+
+}
+
+.justify .image img{ 
+    border-radius: 100%;
+    width: 200px;
+    float: left;
+    text-align: right;
+    
+}
+
+
+
+/* right-side-box */
+
+.right-side { 
+    width: 300px;
+    height: 300px;
+    float: right;
+    position: relative;
+    top: 100px;
+    right: 189px;
+    
+}
+
+.right-side h3{ 
+    color:rgb(30, 168, 223);
+}
+
+.right-side p{ 
+    padding: 5px;
+    color: gray;
+}
+
+
+/* orange-poster start */
+
+
+.orange-poster{ 
+    width: 100%;
+    height: 250px;
+    background-color: rgb(241, 126, 60);
+    clear: both;
+}
+
+.orange1{ 
+    text-align: center;
+}
+
+.orange1 h2{ 
+    padding-top: 50px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.orange1 p{ 
+    color: whitesmoke;
+    font-size:12px ;
+    line-height: 22px; 
+    
+}
+
+.orange1 h4{ 
+    color: whitesmoke;
+    font-size:15px;
+
+}
+
+.orange1 .krishna p{ 
+    position: relative;
+    bottom: -30px;
+}
+
+
+
+/* section */
+
+
+.section{
+    width: 100%;
+    
+    margin-top:70px;
+    clear: both;
+}
+
+
+/* content-box1 */
+
+
+
+.content-box1 { 
+    width: 270px;
+    height: 290px;
+    border: 1px solid rgb(211, 211, 211);
+    margin-left: 180px;
+    float: left;
+    
+    
+}
+
+.content-box1 img{ 
+    width: 270px;
+    
+}
+
+.content-box1 h3{
+    color: rgb(30, 168, 223);
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+
+.content-box1 p{ 
+    color: rgb(165, 164, 164);
+    line-height: 20px;
+    padding-left: 15px;
+}
+
+
+
+/* content-box2 */
+
+
+.content-box2 { 
+    width: 270px;
+    height: 290px;
+    border: 1px solid rgb(211, 211, 211);
+    margin-left: 50px;
+    float: left;
+    
+    
+}
+
+.content-box2 img{ 
+    width: 270px;
+    
+}
+
+.content-box2 h3{
+    color: rgb(30, 168, 223);
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+
+.content-box2 p{ 
+    color: rgb(165, 164, 164);
+    line-height: 20px;
+    padding-left: 15px;
+}
+
+/* content-box3 */
+
+
+.content-box3 { 
+    width: 270px;
+    height: 290px;
+    border: 1px solid rgb(211, 211, 211);
+    margin-left: 50px;
+    float: left;
+    
+    
+}
+
+.content-box3 img{ 
+    width: 270px;
+    
+}
+
+.content-box3 h3{
+    color: rgb(30, 168, 223);
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+
+.content-box3 p{ 
+    color: rgb(165, 164, 164);
+    line-height: 20px;
+    padding-left: 15px;
+}
+
+.footer{ 
+    background-color:rgb(35, 178, 235);
+    width: 100%;
+    height: 300px;
+    clear: both;
+    margin-top: 400px; 
+    text-align: center;
+    padding-top:20px ;
+}
+
+
+
+.footer .heading h1{
+    text-transform: capitalize;
+    position: relative;
+    font-size: 20px;
+    top: 50px;
+    color: white;
+    left: 30px;
+}
+
+.footer .contact p{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    float: left;
+    margin-right:20px;
+    left: 400px;
+    color: white;
+    
+}
+
+.footer .smallpara{ 
+    position: relative;
+    width: 400px;
+    top: 50px;
+    left: 59px;
+    margin-left:400px ;
+    border-top: 1px solid whitesmoke;
+    font-size:12px ;
+    padding-top: 15px;
+    float: left;
+    text-transform: capitalize;
+    color: white;
+}
+
+.contact .fa{ color: red;}
